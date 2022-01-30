@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>NULL</title>
+    <style>
+      @keyframes blur {
+        0% {filter: blur(0);}
+        95% {filter: blur(10rem);}
+        100% {filter: blur(0);}
+      }
+
+      html, body {
+        margin: 0;
+        border: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(12, 12, 12, 1);
+        color: rgba(245, 245, 245, 1);
+      }
+
+      div {
+        position: absolute;
+        top: 50vh;
+        margin: 0;
+        margin-top: -5rem;
+        border: 0;
+        padding: 0;
+        width: 100vw;
+
+        font-family: monospace;
+        font-size: 10rem;
+        text-align: center;
+        vertical-align: middle;
+
+        animation-name: blur;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div>null</div>
+  </body>
+</html>
